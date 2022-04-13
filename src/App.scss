@@ -41,9 +41,17 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: red;
   display: inline-block;
   border: 1px solid black;
   margin-right: 20px;
   cursor: pointer;
+
+  &.active {
+    background-color: red;
+  }
+
+  &.done {
+    background-color: green;
+
+  }
 }
