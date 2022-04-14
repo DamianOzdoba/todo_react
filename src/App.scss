@@ -37,6 +37,11 @@
   }
 }
 
+.App {
+  width: 20rem;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: 'Updock', cursive;
   font-size: 6rem;
@@ -50,7 +55,6 @@ input {
 }
 
 ul {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,8 +62,7 @@ ul {
 
 
 li {
-  margin: 0 auto;
-  width: 18rem;
+  width: 100%;
   font-size: 4rem;
   font-family: 'Updock', cursive;
   list-style: none;
@@ -88,7 +91,7 @@ button {
 
 .buttonContainer {
   margin: 1rem auto;
-  width: 20rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
