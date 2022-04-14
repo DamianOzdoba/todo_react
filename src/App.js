@@ -60,11 +60,11 @@ function App() {
             <TaskList tasks={tasks} status={status} changeStatus={changeStatus} removeTask={removeTask}/>
 
             {tasks.filter((task) => task.status).length ?
-                <button onClick={clearCompleted}>Remove Completed</button> : ''}
-            <div>
-                <button onClick={() => setStatus('all')}>All</button>
-                <button onClick={() => setStatus(false)}>Active</button>
-                <button onClick={() => setStatus(true)}>Done</button>
+                <button className='removeAll' onClick={clearCompleted}>Remove Completed</button> : ''}
+            <div className='buttonContainer'>
+                <button className='showAll' onClick={() => setStatus('all')}>All</button>
+                <button className='active' onClick={() => setStatus(false)}>Active</button>
+                <button className='done' onClick={() => setStatus(true)}>Done</button>
             </div>
         </div>
     );

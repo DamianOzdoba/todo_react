@@ -37,6 +37,63 @@
   }
 }
 
+h1 {
+  font-family: 'Updock', cursive;
+  font-size: 6rem;
+}
+
+input {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  border: 1px solid darkseagreen;
+}
+
+ul {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+li {
+  margin: 0 auto;
+  width: 18rem;
+  font-size: 4rem;
+  font-family: 'Updock', cursive;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 5rem;
+  font-family: 'Updock', cursive;
+  font-size: 2rem;
+  background-color: darkseagreen;
+  border: 1px solid seagreen;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: forestgreen;
+  }
+}
+
+.removeAll {
+  width: auto;
+}
+
+.buttonContainer {
+  margin: 1rem auto;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .status {
   width: 20px;
   height: 20px;
